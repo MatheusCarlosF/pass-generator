@@ -75,7 +75,7 @@ function generatePassword() {
   force();
 }
 
-//verificar quantos elementos estão selecionados
+//verificar quantos elementos estão selecionados e definindo a força da senha
 function force() {
   let weigth = 0;
   let chkSelect = [];
@@ -115,7 +115,7 @@ function generateX() {
 
   return xs[Math.floor(Math.random() * xs.length)];
 }
-
+// função para copiar texto do input
 copyEl.addEventListener("click", () => {
   let copyPassword = document.querySelector(".text-pass");
 
